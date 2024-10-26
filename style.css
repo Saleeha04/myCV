@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(10deg, #df6363, #d6bc8b);
+}
+
+.container {
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gradient-background {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    background-image: url('Jibaku.Shounen.Hanako-kun.full.2849826.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #cc5050;
+    margin-bottom: 5px;
+}
+
+p, ul {
+    font-size: 1em;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
